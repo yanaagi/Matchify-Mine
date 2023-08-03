@@ -1,0 +1,59 @@
+body {
+    background-color: #152238;
+    font-family: 'Gotham-Black', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Gotham-Bold',sans-serif;
+    color: #1db954;
+    font-size: 50px;
+    margin-bottom:10px;
+}
+
+h2,p {
+    font-size: 25px;
+    font-size: 25px;
+    color: #fff;
+    margin-top: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button.spotify-button {
+    background-color: #1db954;
+    color: black;
+    font-family: 'Gotham-Black', sans-serif;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.spotify-button:hover {
+    background-color: #198c45;
+}
+
+@font-face {
+    font-family: 'Gotham-Black';
+    src: url('Metropolis-SemiBold.otf');
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url('Gotham-Bold.otf');
+    font-style: bold;
+}
